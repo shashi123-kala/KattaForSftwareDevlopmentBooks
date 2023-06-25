@@ -12,6 +12,10 @@ public class CalculateDiscount {
 			double count = n * 50.00;
 			amtAfterDis = count - (count * (dis / 100));
 
+		} else if (sdbList.size() == 3) {
+			double count = 3 * 50.00;
+			amtAfterDis = count - (count * (dis / 100));
+
 		}
 		return amtAfterDis;
 	}
